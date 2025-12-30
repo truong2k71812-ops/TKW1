@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập HTML CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            border: 1px solid #000;
+            padding: 15px;
+            margin: 20px;
+            width: 500px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        /* Form */
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: black;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Danh sách việc cần làm -->
+    <div class="box">
+        <h2>Danh sách việc cần làm</h2>
+        <ul>
+            <li>Ôn HTML</li>
+            <li>Ôn CSS</li>
+            <li>Làm bài tập</li>
+        </ul>
+    </div>
+
+    <!-- Đăng ký học -->
+    <div class="box">
+        <h2>Đăng ký học</h2>
+
+        <label>Họ tên</label>
+        <input type="text" placeholder="Nhập họ tên">
+
+        <label>Email</label>
+        <input type="email" placeholder="Nhập email">
+
+        <button>Gửi</button>
+    </div>
+
+    <!-- Bảng điểm -->
+    <div class="box">
+        <h2>Bảng điểm</h2>
+
+        <table>
+            <tr>
+                <th>Tên</th>
+                <th>Điểm</th>
+            </tr>
+            <tr>
+                <td>An</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Binh</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Chi</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
